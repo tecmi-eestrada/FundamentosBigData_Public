@@ -3,7 +3,8 @@
 <p>Nombre del Restaurante</p>
 <p>Descripcion del restaurante</p>
 <ul>
-    <li>Miembro1</li>
-    <li>Miembro2</li>
-    <li>Miembro3</li>
+    <li>Leonel</li>
+    <li>Jorge</li>
+    <li>Orlando</li>
+    <li>Emiliano</li>
 </ul>
