@@ -1,11 +1,28 @@
 #trabajo
+class Restaurante:
 
-# dedinicion de clase
-class Restaurante: 
-  platillos= ["tacos trompo" , "tacos bistec", "campechanas" , "gringas",  "hamburgesas" , "frijoles" ,"burrito ", "tacos de carne asado", "tacos de suadero", "papa asada" ]
-bebidas=  
-  año_de_fundacion = 1888
-  nombre_de_la_mascota = Dontaquito
-# inicializacion
-def_int_ (self,nombre ,tipo_de_restaurante,fundacion):
+    # Inicialización
+    def __init__(self, nombre, tipo_de_restaurante, fundacion):
+        # Definición de atributos
+        self.identidad = restaurante_loscoquettes
+        self.tipo = tipo_de_restaurante
+        self.ano_de_fundacion = fundacion
+        self.mascota = "Dontaquito"
+        self.platillos = ["tacos trompo", "tacos bistec", "campechanas", "gringas", "hamburguesas",
+                          "frijoles especiales", "burrito", "tacos de carne asada", "tacos de suadero", "papa asada"]
+        self.bebidas = ["fanta", "cocacola", "agua de limon", "boing de mango"]
+        self.extras = ["queso", "guacamole", "doble carne", "frijoles a la charra", "papas a la francesa", "bbq", "buffalo", "ranch"]
 
+    # Bienvenida
+    def __str__(self):
+        return f"Bienvenidos a {self.identidad} - {self.tipo}, fundado en el año {self.ano_de_fundacion}"
+    #Retorna el menu
+def entrega_de_menu (self):
+    menu = f"""
+     bienvenidos a {self.identidad}
+     menu 
+    {self.platillos [0]}  """
+    return menu
+
+# Crear instancia del restaurante
+restaurante_loscoquettes = Restaurante("Los Coquettes", "Regional", "1888")
