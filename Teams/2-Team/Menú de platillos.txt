@@ -1,0 +1,81 @@
+Platillo1={
+    "Platillo 1:  ":" ENCHILADAS ROJAS ESTILO ZACATECAS","Ingredientes: ":"4 Tacos de lomo de cerdo deshebrado, con una salsa de chile de árbol y chile guajilo","Precio: ":120,
+}
+Platillo2={
+    "Platillo 2:  ":" EMPANADAS DE CHORIQUESO","Ingredientes: ":"4 Empanadas de queso manchego con chorizo español, acompañadas de salsa macha","Precio: ":120,
+    
+}
+Platillo3={
+    "Platillo 3:  ":" ENMOLADAS CON QUESO","Ingredientes: ":"4 tacos dorados de queso fresco, bañados en una salsa de mole","Precio: ":120,
+    
+}
+Platillo4={
+    "Platillo 4:  ":" MOLOTES DE CHILE RELLENO","Ingredientes: ":"3 chiles guajillos rellenos de queso","Precio: ":120,
+}
+Platillo5={
+    "Platillo 5:  ":" CHIMICHANGAS DE CHILORIO","Ingredientes: ":"3 chimichangas con reyeno de carne de res en salsa roja","Precio: ":120,
+}
+Platillo6={
+    "Platillo 6:  ":" CHILAQUILES SALSA VERDE","Ingredientes: ":"200 gr de tortila estilo totopo, bañados en una salsa verde de tomatillo","Precio: ":120,
+}
+Platillo7={
+    "Platillo 7:  ":" ENCHILADAS SUIZAS","Ingredientes: ":"5 tavos de pollo, bañados en una salsa verde de tomatillo con cilantro","Precio: ":120,
+}
+Platillo8={
+    "Platillo 8:  ":" GORDITAS DE CARNE","Ingredientes: ":"3 gorditas de maiz rellenas con lomo de cerdo en salsa de chile de arbol","Precio: ":120,
+}
+Platillo9={
+    "Platillo 9:  ":" EMPALMES ROJOS","Ingredientes: ":"3 empalmes rellenos de carne molida y frijoles con chorizo","Precio: ":120,
+}
+Platillo10={
+    "Platillo 10:  ":" MOLLETES","Ingredientes: ":"3 mitades de pan lagunero, dorado y embarrado de frijoles con queso y pico de gallo","Precio: ":120,
+}
+
+def imprimirllavevalor(Platillo1):
+    for llave,valor in Platillo1.items():
+        print(f"{llave},{valor}")
+imprimirllavevalor(Platillo1)
+def imprimirllavevalo(Platillo2):
+    for llave,valor in Platillo2.items():
+        print(f"{llave},{valor}")
+imprimirllavevalo(Platillo2)
+
+def imprimirllaveval(Platillo3):
+    for llave,valor in Platillo3.items():
+        print(f"{llave},{valor}")
+imprimirllaveval(Platillo3)
+
+def imprimirllaveva(Platillo4):
+    for llave,valor in Platillo4.items():
+        print(f"{llave},{valor}")
+imprimirllaveva(Platillo4)
+
+def imprimirllavev(Platillo5):
+    for llave,valor in Platillo5.items():
+        print(f"{llave},{valor}")
+imprimirllavev(Platillo5)
+
+def imprimirllave(Platillo6):
+    for llave,valor in Platillo6.items():
+        print(f"{llave},{valor}")
+imprimirllave(Platillo6)
+
+def imprimirllav(Platillo7):
+    for llave,valor in Platillo7.items():
+        print(f"{llave},{valor}")
+imprimirllav(Platillo7)
+
+def imprimirlla(Platillo8):
+    for llave,valor in Platillo8.items():
+        print(f"{llave},{valor}")
+imprimirlla(Platillo8)
+
+def imprimirll(Platillo9):
+    for llave,valor in Platillo9.items():
+        print(f"{llave},{valor}")
+imprimirll(Platillo9)
+
+def imprimirl(Platillo10):
+    for llave,valor in Platillo10.items():
+        print(f"{llave},{valor}")
+imprimirl(Platillo10)
