@@ -27,6 +27,7 @@ class Negocio:
             menu_str += f"{bebida['Nombre']}: {bebida['Descripcion']} - Precio: ${bebida['Precio']}\n"
         
         return f"Bienvenidos a {self.Nombre_Negocio}, fundado en el año {self.fundacion}\n{menu_str}"
+    
 
     # Menú de platillos
     Menu_Platillos = [
@@ -54,3 +55,7 @@ class Negocio:
 mi_negocio = Negocio("Gamer´s Speciatis", "Restaurante", 1997)
 # Imprimir la instancia
 print(mi_negocio)
+
+file_to_write = open("C:\\Users\\paty_\\OneDrive\\Documentos\\TECMI\\Negocio.txt", "w")
+file_to_write.write(mi_negocio)
+file_to_write.close ()
