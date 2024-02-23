@@ -57,5 +57,5 @@ mi_negocio = Negocio("Gamer´s Speciatis", "Restaurante", 1997)
 print(mi_negocio)
 
 file_to_write = open("C:\\Users\\paty_\\OneDrive\\Documentos\\TECMI\\Negocio.txt", "w")
-file_to_write.write(mi_negocio)
+file_to_write.write(str(mi_negocio))
 file_to_write.close ()
