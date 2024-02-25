@@ -4,7 +4,7 @@ class Restaurante:
     # Inicialización
     def __init__(self, nombre, tipo_de_restaurante, fundacion):
         # Definición de atributos
-        self.identidad = restaurante_loscoquettes
+        self.identidad = nombre
         self.tipo = tipo_de_restaurante
         self.ano_de_fundacion = fundacion
         self.mascota = "Dontaquito"
@@ -17,15 +17,17 @@ class Restaurante:
     def __str__(self):
         return f"Bienvenidos a {self.identidad} - {self.tipo}, fundado en el año {self.ano_de_fundacion}"
     #Retorna el menu
-def entrega_de_menu (self):
-    menu = f"""
-     bienvenidos a {self.identidad}
-     menu 
-    {self.platillos [0]}  """
-    return menu
+    def entrega_de_menu (self):
+        menu = f"""
+        bienvenidos a {self.identidad}
+        menu 
+        {self.platillos [0]}  """
+        return menu
 
-# Crear instancia del restaurante
+  # Crear instancia del restaurante
 restaurante_loscoquettes = Restaurante("Los Coquettes", "Regional", "1888")
 
-
-
+mimenu = restaurante_loscoquettes.entrega_de_menu ()
+file_to_write = open("C:\\Users\\prisc\\Downloads\\codetrabajo\\trabajo_actualizacion.txt", "w")
+file_to_write.write(mimenu)
+file_to_write.close()

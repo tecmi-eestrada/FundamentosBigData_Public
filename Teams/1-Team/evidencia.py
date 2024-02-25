@@ -12,6 +12,7 @@ class Restaurante: #Sushi Street
         return f"Bienvenidos a {self.identidad}-{self.tipo},fundado en el año {self.año_de_fundacion} "
    
     def entrega_de_menu(self):
+
         menu= f"""
             Bienvenidos a {self.identidad}
                 Menu
@@ -20,7 +21,7 @@ class Restaurante: #Sushi Street
                 Sushi California-------------------------------------------------------------$70
                     Surimi,queso crema, pepino, aguacate,por fuera ajonjoli
                 Sushi Philadelphia-----------------------------------------------------------$70
-                    Surimi,tampico,agauacte, pepino, por fuera queso crema y ajonjoli 
+                    Surimi,tampico,aguacAte, pepino, por fuera queso crema y ajonjoli 
                 Sushi Camaron Roll-----------------------------------------------------------$85
                     Camaron, aguacate, queso crema, pepino, y por fuera tampico 
                 Sushi River Roll-------------------------------------------------------------$95
@@ -39,17 +40,17 @@ class Restaurante: #Sushi Street
                     Arroz mixto acompañado con carne 
                 
                 Bebidas 
-                Refresco 500ml---------------------------------------------------------------$25
+                Refresco 500 ml---------------------------------------------------------------$25
                     Sabor Cola 
-                Refresco 500ml---------------------------------------------------------------$25
+                Refresco 500 ml---------------------------------------------------------------$25
                     Sabor Toronja
-                Refresco 500ml---------------------------------------------------------------$25
+                Refresco 500 ml---------------------------------------------------------------$25
                     Sabor Manzana 
-                Refresco 500ml---------------------------------------------------------------$25
+                Refresco 500 ml---------------------------------------------------------------$25
                     Sabor Ponche
-                Agua natural 1lt-------------------------------------------------------------$45
+                Agua natural 1 lt-------------------------------------------------------------$45
                     Sabor Jamaica 
-                Agua natural 1lt-------------------------------------------------------------$45
+                Agua natural 1 lt-------------------------------------------------------------$45
                     Sabor Horchata
 
                 Extras 
@@ -67,7 +68,7 @@ class Restaurante: #Sushi Street
                     Surimi, verdudras, aderezo ranch 
                 Ensalada 250 gr-------------------------------------------------------------$25
                     Pepino, zanahoria, betabel, ajonjoli
-                Vinagreta  50ml-------------------------------------------------------------$25
+                Vinagreta  50 ml-------------------------------------------------------------$25
                     Vinagre, aceites vegetales
         """
         return menu 
@@ -78,5 +79,8 @@ class Restaurante: #Sushi Street
 
 
 miRestaurante= Restaurante("Sushi Street","Comida Oriental",1998,"Sushikito")
+menu = miRestaurante.entrega_de_menu()
+file_to_write = open("C:\\Users\\Eliud\\evidencia\\Menu.txt", "w")
+file_to_write.write(menu)
+file_to_write.close()
 print(miRestaurante.entrega_de_menu())
-    
