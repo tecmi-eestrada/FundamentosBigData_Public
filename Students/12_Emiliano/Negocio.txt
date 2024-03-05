@@ -1,0 +1,11 @@
+                    Nombre                                                                                                            Descripcion  Precio
+0     Hamburguesa Sencilla                                    Carne de res, lechuga, tomate, queso cheddar, salsa especial, en pan de hamburguesa      75
+1        Hamburguesa Doble  Doble Carne de res, lechuga, salchicha, aros de cebolla, tomate, queso cheddar, salsa especial, en pan de hamburguesa     120
+2              Pizza Gamer                                                           Pepperoni, salsa de tomate, queso mozzarella, en masa Romana     120
+3                   Alitas                                            Alitas de pollo bañadas en tu salsa preferida, acompañadas bastones de apio      85
+4           Nachos Supreme                                                       Totopos de maíz, carne molida, queso fundido, guacamole, y crema      75
+5                  Hot Dog                                            Salchicha de res, cebolla caramelizada, mostaza, kétchup, en pan de hot dog      65
+6                   Pirata                                                          Carne Asada, queso rallado, aguacate, en su tortilla de arina     140
+7            Burrote Gamer                                        Tortilla de harina rellena de carne de res deshebrada, frijoles, queso, y crema     180
+8  Papas Fritas Especiales                    Papas fritas crujientes sazonadas con sal y pimiento al gusto, queso fundido , y trocitos de tocino      99
+9              ChilaGamers                   Tortilla de maiz crujiente, salsa verde o roja, queso garatinado, cama de frijoles, y cecina de res       80
