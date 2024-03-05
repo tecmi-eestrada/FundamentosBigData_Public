@@ -1,0 +1,5 @@
+             nombre                ingredientes  precio
+0     agua de sabor               frutas y agua      35
+1          refresco         de sabor o cocacola      25
+2       agua simple            agua embotellada      30
+3  limonada mineral  limones, endulzante y agua      35
