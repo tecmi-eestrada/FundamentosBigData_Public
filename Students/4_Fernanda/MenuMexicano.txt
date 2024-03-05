@@ -1,0 +1,4 @@
+     bebida  descripcion  precio
+0  refresco  Bebida rica    15.0
+1      agua  Bebida rica    18.5
+2      jugo  Bebida rica    22.5
