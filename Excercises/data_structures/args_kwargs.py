@@ -47,3 +47,5 @@ def concatenar(**kwargs):
 var = 32.2
 if type(var) == float:
     print(var)
+
+    #print("hola")
